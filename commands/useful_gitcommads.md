@@ -12,7 +12,7 @@
 ### Then add / commit  files as usual. 
 
 
-# Removing accidentally added large files before 
+# Removing accidentally commited large files 
 
 ### if anything goes wrong with the following approach, type:
 `git rebase --abort`
