@@ -1,1 +1,3 @@
-# Useful Things \n A list of useful resources
+# Useful Things
+
+A list of useful resources
