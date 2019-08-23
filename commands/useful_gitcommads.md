@@ -12,10 +12,11 @@
 ### Then add / commit  files as usual. 
 
 
-# Removing accidentally added large files before 
+# Removing accidentally commited large files 
 
-### if anythign goes wrong with the following approach, type:
+### if anything goes wrong with the following approach, type:
 `git rebase --abort`
+
 ### if you have not pushed just use:
 
 `git reset --head soft `
@@ -35,6 +36,6 @@
 ## Alternative method
 
 
-### *Note*: This command changes the hashes of your commits which can be a real problem, especially on shared repositories. It should not be performed without understanding the consequences.
+#### *Note*: This command changes the hashes of your commits which can be a real problem, especially on shared repositories. It should not be performed without understanding the consequences.
 
-git filter-branch --index-filter 'git rm -r --cached --ignore-unmatch <file/dir>' -f HEAD 
+`git filter-branch --index-filter 'git rm -r --cached --ignore-unmatch <file/dir>' -f HEAD `
