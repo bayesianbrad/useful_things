@@ -1,12 +1,3 @@
-## Nested Programs
-
-```
-@article{rainforth2018nesting,
-  title={Nesting probabilistic programs},
-  author={Rainforth, Tom},
-  journal={arXiv preprint arXiv:1803.06328},
-  year={2018}
-```
 
 ## Probabilistic Programming - The Basics
 
@@ -43,3 +34,12 @@ The stats/ engineering perspective:
 }
 ```
 
+## Nested Programs
+
+```
+@article{rainforth2018nesting,
+  title={Nesting probabilistic programs},
+  author={Rainforth, Tom},
+  journal={arXiv preprint arXiv:1803.06328},
+  year={2018}
+```
