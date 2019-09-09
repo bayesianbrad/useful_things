@@ -35,7 +35,6 @@
 
 ## Alternative method
 
-
 #### *Note*: This command changes the hashes of your commits which can be a real problem, especially on shared repositories. It should not be performed without understanding the consequences.
 
 `git filter-branch --index-filter 'git rm -r --cached --ignore-unmatch <file/dir>' -f HEAD `
