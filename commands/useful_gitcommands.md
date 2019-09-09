@@ -5,7 +5,7 @@ Before commiting the large file, first install git-lfs in the repository where t
 
 then to add a file type that you would like to track, you add *.<fileType>, here we are adding files with extension `.th`
 
-`git lfs trace "*.th" ` 
+`git lfs track "*.th" ` 
 
 `git add .gitattributes `
 
