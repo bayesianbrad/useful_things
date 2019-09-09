@@ -1,37 +1,37 @@
-# Adding large files to gituhb
 
+# Adding large files to gituhb
+Before commiting the large file, first install git-lfs in the repository where the big file you want to commit exists.
 `git lfs install`
 
-### to add a file type that you would liek to track, you add *.<fileType>
+then to add a file type that you would like to track, you add *.<fileType>, here we are adding files with extension `.th`
 
 `git lfs trace "*.th" ` 
 
 `git add .gitattributes `
 
-
-### Then add / commit  files as usual. 
+Once completed, add and then commit  the file/s as usual. 
 
 
 # Removing accidentally commited large files 
 
-### if anything goes wrong with the following approach, type:
+If anything goes wrong with the following approach (below), type:
 `git rebase --abort`
 
-### if you have not pushed just use:
+If you have not pushed just use:
 
 `git reset --head soft `
 
-### If you have pushed
+If you have pushed
 
 `git log --all -- <name_of_large_file_accidentally_commit_and_pushed>`
 
-### go to the  bottom (last commit in the index) 
+go to the  bottom (last commit in the index) 
 
-### Assuming commit number 3f7dd04a6e6dbdf1fff92df1f6344a06119d5d32
+assuming commit number 3f7dd04a6e6dbdf1fff92df1f6344a06119d5d32
 
 `git rebase -i 3f7dd04a6e6dbdf1fff92df1f6344a06119d5d32`
 
-### there may be commits that you need to replace. 
+there may be commits that you need to replace. 
 
 ## Alternative method
 
